@@ -12,7 +12,7 @@
   stb,
   stdenv,
   unzip,
-  wrapGAppsHook,
+  wrapGAppsHook3,
   zenity,
   zlib,
   mcpeVersions,
@@ -27,7 +27,7 @@ stdenv.mkDerivation rec {
   nativeBuildInputs = [
     cmake
     pkg-config
-    wrapGAppsHook
+    wrapGAppsHook3
     copyDesktopItems
   ];
   buildInputs = [
