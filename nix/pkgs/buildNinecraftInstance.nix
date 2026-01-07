@@ -40,7 +40,7 @@
         mp_server_visible_default = true;
         gfx_fancygraphics = true;
         gfx_lowquality = false;
-        ctrl_sensitivity = 0.5;
+        ctrl_sensitivity = 0.1;
         ctrl_invertmouse = false;
         ctrl_islefthanded = false;
         ctrl_usetouchscreen = false;
